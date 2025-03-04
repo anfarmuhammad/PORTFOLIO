@@ -89,9 +89,14 @@ h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
-  border: 10px solid #2c2f3f;
+  width: 100px; /* Image width */
+  height: 100px; /* Image height */
+  border: 8px solid #2c2f3f; /* Dark gray border */
+  
 }
+
+
+
 
 #header .profile h1 {
   font-size: 24px;
@@ -430,8 +435,8 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
---------------------------------------------------------------*/
+# Skills
+-------------------------------------------------------------- */
 .skills .progress {
   height: 60px;
   display: block;
